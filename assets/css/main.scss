@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Hurme-Bold';
+  src: url('../fonts/HurmeGeometricSans2-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hurme-Black';
+  src: url('../fonts/HurmeGeometricSans2-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hurme-Regular';
+  src: url('../fonts/HurmeGeometricSans2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hurme-Semi';
+  src: url('../fonts/HurmeGeometricSans2-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hurme-Light';
+  src: url('../fonts/HurmeGeometricSans2-Light.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hurme-Normal", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
