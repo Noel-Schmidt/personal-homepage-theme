@@ -134,6 +134,7 @@
 </template>
 
 <script lang="ts" setup>
+
 useHead({
 	htmlAttrs: {
 		class: ""
@@ -142,8 +143,8 @@ useHead({
 
 const { find } = useStrapi4();
 
-const { data: repoData } = await useFetch(`https://api.github.com/users/Noel-Schmidt/repos?per_page=4&sort=created`);
-const { data: userData } = await useFetch(`https://api.github.com/users/Noel-Schmidt`);
+const { data: repoData } = await useFetch<GitProject[]>(`https://api.github.com/users/Noel-Schmidt/repos?per_page=4&sort=created`);
+const { data: userData } = await useFetch<GitUser>(`https://api.github.com/users/Noel-Schmidt`);
 const { data: blogData } = await find<any>(`blogs?populate=*`);
 blogData.reverse();
 </script>

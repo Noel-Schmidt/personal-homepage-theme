@@ -65,10 +65,10 @@ const { find } = useStrapi4();
 const route = useRoute()
 const router = useRouter();
 
-let postData = null;
+let postData;
 
 try {
-	const { data: data } = await find<any>(`blogs/${route.params.id}?populate=*`);
+	const { data: data } = await find<PostData>(`blogs/${route.params.id}?populate=*`);
 	postData = data;
 } catch (err) {
 	router.push("/")
