@@ -15,18 +15,17 @@ declare global {
     }
 
     interface PostData {
-        data: {
-            id: number,
-            attributes: {
-                title: string;
-                short_text: string;
-                content: string;
-                createdAt: string;
-                updatedAt: string;
-                publishedAt: string;
-                author: string;
-                keywords: string;
-            }
+        id: number,
+        attributes: {
+            title: string;
+            short_text: string;
+            content: string;
+            createdAt: string;
+            updatedAt: string;
+            publishedAt: string;
+            author: string;
+            keywords: string;
+            cover: object
         }
     }
 
