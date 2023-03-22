@@ -16,8 +16,8 @@
 							<span class="text-blue-300">Webdesigner</span> <span class="text-white">&</span> <span class="text-blue-300">Developer</span>
 						</div>
 
-						<div class="mt-12 text-gray-400 font-['Hurme-Normal']">
-							In 2016 I became interested in programming and it all started back when I taught myself Java to program mods for a game.
+						<div class="mt-12 text-gray-400 font-['Hurme-Regular']">
+							In 2016 I became interested in programming and it all started back when I taught myself Java to program modifications for a game.
 							In 2018 I started with web design and quickly found my fulfillment there. I also try to increase my knowledge in this area as time goes on.
 							<br/><br/>
 
@@ -87,7 +87,7 @@
 
 useHead({
 	meta: [
-		{ name: "description", content: "" },
+		{ name: "description", content: "Hi, i am Noel Schmidt. Webdesigner &  Developer" },
 		{ name: "keywords", content: "noel-schmidt, kleve, nrw, webdesigner, webdesign, portfolio" },
 	]
 })

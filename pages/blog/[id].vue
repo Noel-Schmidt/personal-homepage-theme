@@ -30,7 +30,7 @@
 
 		<img alt="Cover" class="object-cover w-full h-[37vh] object-top	shadow-2xl rounded-xl" :src="'https://strapi.noel-schmidt.de'+postData.attributes.cover.data.attributes.formats.large.url">
 
-		<div class="mt-5 text-gray-300 font-['Hurme-Normal']" v-html="postData.attributes.content"></div>
+		<div class="mt-5 text-gray-300 font-['Hurme-Regular']" v-html="postData.attributes.content"></div>
 
 		<div class="mt-6">
 			<div class="inline-block bg-blue-400 py-0.5 text-white font-['Hurme-Semi'] px-3 shadow-2xl rounded-xl mr-1" v-for="keyword in postData.attributes.keywords.split(',')">
